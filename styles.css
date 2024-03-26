@@ -40,16 +40,33 @@ img {
     margin: 43px 0 37px;
 }
 
-nav > li{
+nav {
+    background-color: #f9f8f7;
+    border: solid black;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size:24px;
     color:#333333;
     text-align:left;
     line-height:36px;
+    text-decoration: none;
 }
 
-nav > li:active {
+
+.active {
     color: #d0021b;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 800px) {
