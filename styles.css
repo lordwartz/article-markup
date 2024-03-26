@@ -40,9 +40,17 @@ img {
     margin: 43px 0 37px;
 }
 
+
+
+header > img {
+    margin: 0;
+    height: fit-content;
+}
+
 nav {
     background-color: #f9f8f7;
-    border: solid black;
+    border-top: solid #bcbcbc 2px;
+    border-bottom: solid #bcbcbc 2px;
 }
 
 nav > ul {
